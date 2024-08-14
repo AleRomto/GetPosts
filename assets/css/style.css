@@ -1,0 +1,60 @@
+body {
+    font-family: 'Arial', sans-serif; 
+    background-color: #f5f5f5;
+    color: #333; 
+    padding: 20px;
+    margin: 0;
+}
+
+/* Botones */
+button {
+    background-color: #ff00bb;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease; 
+    margin-right: 10px; 
+}
+
+button:hover {
+    background-color: #b300b3; 
+}
+
+/* Posts */
+#post-data {
+    margin-top: 20px;
+    padding: 20px;
+    background-color: white; 
+    border-radius: 8px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+}
+
+/* Lista de Posts */
+ul {
+    list-style-type: none; 
+    padding: 0;
+}
+
+li {
+    border-bottom: 1px solid #ddddddda; 
+    padding: 15px 0;
+}
+
+li:last-child {
+    border-bottom: none; 
+}
+
+h2 {
+    margin: 0 0 10px 0; 
+    font-size: 18px; 
+    color: #333; 
+}
+
+p {
+    margin: 0; 
+    font-size: 16px; 
+    color: #666; 
+}
